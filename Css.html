@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        color: gray;
+      }
+
+      .main {
+        width: 900px;
+        height: 950px;
+        /* background-color: yellowgreen; */
+        display: flex;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+
+      ul {
+        list-style-type: none;
+        margin-bottom: 40px;
+      }
+
+      .menu {
+        width: 200px;
+        height: 350px;
+        font-size: large;
+        /* background-color: rebeccapurple; */
+      }
+
+      h4 {
+        text-align: center;
+        letter-spacing: 5px;
+        margin-bottom: 40px;
+      }
+
+      ul li {
+        cursor: grab;
+      }
+
+      .products {
+        width: 700px;
+        height: 950px;
+        /* background-color: darksalmon; */
+        border: 2px solid lightgrey;
+      }
+
+      .product {
+        text-align: center;
+        width: 200px;
+        height: 350px;
+        /* background-color: darkolivegreen; */
+        margin-top: 20px;
+        margin-left: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border: 2px solid lightgrey;
+        display: inline-block;
+      }
+
+      .product img {
+        width: 200px;
+      }
+
+      .product div {
+        margin: 20px 0px;
+      }
+
+      .product .name {
+        font-size: x-large;
+      }
+
+      .product .producer {
+        color: green;
+        text-decoration: underline;
+      }
+
+      .product .button {
+        background-color: green;
+        border-radius: 20px;
+        width: 150px;
+        height: 30px;
+        padding-top: 10px;
+        margin: 0px Auto;
+
+        color: white;
+      }
+
+      .product a {
+        text-decoration: none;
+      }
+
+      .deneme {
+        margin: 0 120px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="menu">
+        <h4>Categories</h4>
+        <ul>
+          <li>Fruit-Vegetable</li>
+          <ul>
+            <li>Fruits</li>
+            <li>Vegetables</li>
+          </ul>
+        </ul>
+        <ul>
+          <li>Staple Food</li>
+          <ul>
+            <li>Oil</li>
+            <li>Legumes</li>
+          </ul>
+        </ul>
+        <ul>
+          <li>Milk and Milk Products</li>
+          <ul>
+            <li>Milk</li>
+            <li>Cheese</li>
+          </ul>
+        </ul>
+        <ul>
+          <li>Meat</li>
+          <ul>
+            <li>Meat</li>
+            <li>Fish</li>
+            <li>Chicken</li>
+          </ul>
+        </ul>
+      </div>
+      <div class="products">
+        <div class="product">
+          <img src="strawberry.png" alt="" />
+          <div class="name">Strawberry</div>
+          <div class="producer">A&B Farm</div>
+          <div>20 TL</div>
+          <a href=""><div class="button">Add to Cart</div></a>
+        </div>
+        <div class="product">
+          <img src="bulgur.png" alt="" />
+          <div class="name">Bulgur</div>
+          <div class="producer">A&B Farm</div>
+          <div>30 TL</div>
+          <a href=""><div class="button">Add to Cart</div></a>
+        </div>
+        <div class="product">
+          <img src="lemon.png" alt="" />
+          <div class="name">Lemon</div>
+          <div class="producer">A&B Farm</div>
+          <div>10 TL</div>
+          <a href=""><div class="button">Add to Cart</div></a>
+        </div>
+        <div class="product">
+          <img src="cheese.png" alt="" />
+          <div class="name">Cheese</div>
+          <div class="producer">A&B Farm</div>
+          <div>40 TL</div>
+          <a href=""><div class="button">Add to Cart</div></a>
+        </div>
+        <div class="product">
+          <img src="salmon.png" alt="" />
+          <div class="name">Salmon</div>
+          <div class="producer">A&B Farm</div>
+          <div>80 TL</div>
+          <a href=""><div class="button">Add to Cart</div></a>
+        </div>
+        <div class="product">
+          <img src="milk.png" alt="" />
+          <div class="name">Milk</div>
+          <div class="producer">A&B Farm</div>
+          <div>15 TL</div>
+          <div class="deneme">
+            <a href=""><div class="button">Add to Cart</div></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
